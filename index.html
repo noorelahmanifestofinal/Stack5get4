@@ -1,24 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NWR5 Staking dApp</title>
-</head>
-<body>
-  <h1>NWR5 Staking dApp</h1>
-  <p>This interface supports multilingual UI, dark mode, and mobile-ready staking interactions.</p>
-  <p><a href="translations.csv" download>Download Translation Template (CSV)</a></p>
-  <script>
-    const savedLang = localStorage.getItem('preferredLang');
-    if (savedLang) {
-      document.documentElement.lang = savedLang;
-      // Assume existing setLanguage function is in the main dApp script
-      if (typeof setLanguage === 'function') setLanguage(savedLang);
+<!-- Right-to-left support + CSV language management -->
+<style>
+  body.rtl { direction: rtl; text-align: right; }
+</style>
+<script>
+function setLanguage(lang) {
+  currentLang = translations[lang] ? lang : 'en';
+  const labels = translations[currentLang];
+  document.body.classList.toggle('rtl', lang === 'ar' || lang === 'he');
+  document.querySelectorAll('[data-lang]').forEach(el => {
+    const key = el.getAttribute('data-lang');
+    if (labels[key]) el.innerText = labels[key];
+  });
+  const tips = labels.tooltips || translations.en.tooltips;
+  const tipMap = {
+    connect: 'connect', amount: 'amount', approve: 'approve', stake: 'stake', withdraw: 'withdraw', status: 'status', view: 'view'
+  };
+  Object.keys(tipMap).forEach(k => {
+    const el = document.querySelector(`[data-tooltip="${k}"]`);
+    if (el) el.title = tips[k] || translations.en.tooltips[k];
+  });
+}
+
+function exportTranslationsToCSV() {
+  let csv = "lang,key,value\n";
+  for (const lang in translations) {
+    for (const section in translations[lang]) {
+      const data = translations[lang][section];
+      if (typeof data === 'object') {
+        for (const key in data) {
+          csv += `${lang},${section}.${key},"${data[key].replace(/"/g, '""')}"\n`;
+        }
+      } else {
+        csv += `${lang},${section},"${data.replace(/"/g, '""')}"\n`;
+      }
     }
-    function saveLang(lang) {
-      localStorage.setItem('preferredLang', lang);
-    }
-  </script>
-</body>
-</html>
+  }
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const link = document.createElement('a');
+  link.setAttribute('href', URL.createObjectURL(blob));
+  link.setAttribute('download', 'translations.csv');
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+}
+
+function importTranslationsFromCSV(csvText) {
+  const rows = csvText.split('\n').slice(1);
+  for (const row of rows) {
+    const [lang, key, val] = row.split(',').map(c => c?.trim().replace(/^"|"$/g, ''));
+    if (!lang || !key || !val) continue;
+    const [section, subkey] = key.split('.');
+    if (!translations[lang]) translations[lang] = {};
+    if (!translations[lang][section]) translations[lang][section] = {};
+    translations[lang][section][subkey] = val;
+  }
+}
+
+function loadCSV(file) {
+  const reader = new FileReader();
+  reader.onload = () => importTranslationsFromCSV(reader.result);
+  reader.readAsText(file);
+}
+</script>
+<input type="file" onchange="loadCSV(this.files[0])" accept=".csv" />
+<button onclick="exportTranslationsToCSV()">Export CSV</button>
