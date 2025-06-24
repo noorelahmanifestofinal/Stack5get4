@@ -1,0 +1,253 @@
+lang,key,value
+en,heading,NWR5 Staking Interface
+en,toggleDark,Toggle Dark Mode
+en,connected,Connected:
+en,stake,Stake NWR5
+en,withdraw,Withdraw
+en,status,Status
+en,tiers,Tiers
+en,tooltips.connect,Connect your wallet
+en,tooltips.amount,Enter amount to stake
+en,tooltips.approve,Approve NWR5
+en,tooltips.stake,Stake your NWR5
+en,tooltips.withdraw,Withdraw stake and reward
+en,tooltips.status,Check stake and unlock status
+en,tooltips.view,View all staking tiers
+en,logs.approved,Approved NWR5:
+en,logs.staked,Staked:
+en,logs.withdrawn,Withdrawn.
+en,logs.rewards,Pending Rewards:
+en,logs.balance,NWR4 in contract:
+en,logs.unlock,Unlocks in:
+en,logs.ready,Unlocked! You may withdraw.
+es,heading,NWR5 Staking Interface
+es,toggleDark,Toggle Dark Mode
+es,connected,Connected:
+es,stake,Stake NWR5
+es,withdraw,Withdraw
+es,status,Status
+es,tiers,Tiers
+es,tooltips.connect,Connect your wallet
+es,tooltips.amount,Enter amount to stake
+es,tooltips.approve,Approve NWR5
+es,tooltips.stake,Stake your NWR5
+es,tooltips.withdraw,Withdraw stake and reward
+es,tooltips.status,Check stake and unlock status
+es,tooltips.view,View all staking tiers
+es,logs.approved,Approved NWR5:
+es,logs.staked,Staked:
+es,logs.withdrawn,Withdrawn.
+es,logs.rewards,Pending Rewards:
+es,logs.balance,NWR4 in contract:
+es,logs.unlock,Unlocks in:
+es,logs.ready,Unlocked! You may withdraw.
+fr,heading,NWR5 Staking Interface
+fr,toggleDark,Toggle Dark Mode
+fr,connected,Connected:
+fr,stake,Stake NWR5
+fr,withdraw,Withdraw
+fr,status,Status
+fr,tiers,Tiers
+fr,tooltips.connect,Connect your wallet
+fr,tooltips.amount,Enter amount to stake
+fr,tooltips.approve,Approve NWR5
+fr,tooltips.stake,Stake your NWR5
+fr,tooltips.withdraw,Withdraw stake and reward
+fr,tooltips.status,Check stake and unlock status
+fr,tooltips.view,View all staking tiers
+fr,logs.approved,Approved NWR5:
+fr,logs.staked,Staked:
+fr,logs.withdrawn,Withdrawn.
+fr,logs.rewards,Pending Rewards:
+fr,logs.balance,NWR4 in contract:
+fr,logs.unlock,Unlocks in:
+fr,logs.ready,Unlocked! You may withdraw.
+zh,heading,NWR5 Staking Interface
+zh,toggleDark,Toggle Dark Mode
+zh,connected,Connected:
+zh,stake,Stake NWR5
+zh,withdraw,Withdraw
+zh,status,Status
+zh,tiers,Tiers
+zh,tooltips.connect,Connect your wallet
+zh,tooltips.amount,Enter amount to stake
+zh,tooltips.approve,Approve NWR5
+zh,tooltips.stake,Stake your NWR5
+zh,tooltips.withdraw,Withdraw stake and reward
+zh,tooltips.status,Check stake and unlock status
+zh,tooltips.view,View all staking tiers
+zh,logs.approved,Approved NWR5:
+zh,logs.staked,Staked:
+zh,logs.withdrawn,Withdrawn.
+zh,logs.rewards,Pending Rewards:
+zh,logs.balance,NWR4 in contract:
+zh,logs.unlock,Unlocks in:
+zh,logs.ready,Unlocked! You may withdraw.
+de,heading,NWR5 Staking Interface
+de,toggleDark,Toggle Dark Mode
+de,connected,Connected:
+de,stake,Stake NWR5
+de,withdraw,Withdraw
+de,status,Status
+de,tiers,Tiers
+de,tooltips.connect,Connect your wallet
+de,tooltips.amount,Enter amount to stake
+de,tooltips.approve,Approve NWR5
+de,tooltips.stake,Stake your NWR5
+de,tooltips.withdraw,Withdraw stake and reward
+de,tooltips.status,Check stake and unlock status
+de,tooltips.view,View all staking tiers
+de,logs.approved,Approved NWR5:
+de,logs.staked,Staked:
+de,logs.withdrawn,Withdrawn.
+de,logs.rewards,Pending Rewards:
+de,logs.balance,NWR4 in contract:
+de,logs.unlock,Unlocks in:
+de,logs.ready,Unlocked! You may withdraw.
+pt,heading,NWR5 Staking Interface
+pt,toggleDark,Toggle Dark Mode
+pt,connected,Connected:
+pt,stake,Stake NWR5
+pt,withdraw,Withdraw
+pt,status,Status
+pt,tiers,Tiers
+pt,tooltips.connect,Connect your wallet
+pt,tooltips.amount,Enter amount to stake
+pt,tooltips.approve,Approve NWR5
+pt,tooltips.stake,Stake your NWR5
+pt,tooltips.withdraw,Withdraw stake and reward
+pt,tooltips.status,Check stake and unlock status
+pt,tooltips.view,View all staking tiers
+pt,logs.approved,Approved NWR5:
+pt,logs.staked,Staked:
+pt,logs.withdrawn,Withdrawn.
+pt,logs.rewards,Pending Rewards:
+pt,logs.balance,NWR4 in contract:
+pt,logs.unlock,Unlocks in:
+pt,logs.ready,Unlocked! You may withdraw.
+hi,heading,NWR5 Staking Interface
+hi,toggleDark,Toggle Dark Mode
+hi,connected,Connected:
+hi,stake,Stake NWR5
+hi,withdraw,Withdraw
+hi,status,Status
+hi,tiers,Tiers
+hi,tooltips.connect,Connect your wallet
+hi,tooltips.amount,Enter amount to stake
+hi,tooltips.approve,Approve NWR5
+hi,tooltips.stake,Stake your NWR5
+hi,tooltips.withdraw,Withdraw stake and reward
+hi,tooltips.status,Check stake and unlock status
+hi,tooltips.view,View all staking tiers
+hi,logs.approved,Approved NWR5:
+hi,logs.staked,Staked:
+hi,logs.withdrawn,Withdrawn.
+hi,logs.rewards,Pending Rewards:
+hi,logs.balance,NWR4 in contract:
+hi,logs.unlock,Unlocks in:
+hi,logs.ready,Unlocked! You may withdraw.
+ar,heading,NWR5 Staking Interface
+ar,toggleDark,Toggle Dark Mode
+ar,connected,Connected:
+ar,stake,Stake NWR5
+ar,withdraw,Withdraw
+ar,status,Status
+ar,tiers,Tiers
+ar,tooltips.connect,Connect your wallet
+ar,tooltips.amount,Enter amount to stake
+ar,tooltips.approve,Approve NWR5
+ar,tooltips.stake,Stake your NWR5
+ar,tooltips.withdraw,Withdraw stake and reward
+ar,tooltips.status,Check stake and unlock status
+ar,tooltips.view,View all staking tiers
+ar,logs.approved,Approved NWR5:
+ar,logs.staked,Staked:
+ar,logs.withdrawn,Withdrawn.
+ar,logs.rewards,Pending Rewards:
+ar,logs.balance,NWR4 in contract:
+ar,logs.unlock,Unlocks in:
+ar,logs.ready,Unlocked! You may withdraw.
+ja,heading,NWR5 Staking Interface
+ja,toggleDark,Toggle Dark Mode
+ja,connected,Connected:
+ja,stake,Stake NWR5
+ja,withdraw,Withdraw
+ja,status,Status
+ja,tiers,Tiers
+ja,tooltips.connect,Connect your wallet
+ja,tooltips.amount,Enter amount to stake
+ja,tooltips.approve,Approve NWR5
+ja,tooltips.stake,Stake your NWR5
+ja,tooltips.withdraw,Withdraw stake and reward
+ja,tooltips.status,Check stake and unlock status
+ja,tooltips.view,View all staking tiers
+ja,logs.approved,Approved NWR5:
+ja,logs.staked,Staked:
+ja,logs.withdrawn,Withdrawn.
+ja,logs.rewards,Pending Rewards:
+ja,logs.balance,NWR4 in contract:
+ja,logs.unlock,Unlocks in:
+ja,logs.ready,Unlocked! You may withdraw.
+ko,heading,NWR5 Staking Interface
+ko,toggleDark,Toggle Dark Mode
+ko,connected,Connected:
+ko,stake,Stake NWR5
+ko,withdraw,Withdraw
+ko,status,Status
+ko,tiers,Tiers
+ko,tooltips.connect,Connect your wallet
+ko,tooltips.amount,Enter amount to stake
+ko,tooltips.approve,Approve NWR5
+ko,tooltips.stake,Stake your NWR5
+ko,tooltips.withdraw,Withdraw stake and reward
+ko,tooltips.status,Check stake and unlock status
+ko,tooltips.view,View all staking tiers
+ko,logs.approved,Approved NWR5:
+ko,logs.staked,Staked:
+ko,logs.withdrawn,Withdrawn.
+ko,logs.rewards,Pending Rewards:
+ko,logs.balance,NWR4 in contract:
+ko,logs.unlock,Unlocks in:
+ko,logs.ready,Unlocked! You may withdraw.
+ru,heading,NWR5 Staking Interface
+ru,toggleDark,Toggle Dark Mode
+ru,connected,Connected:
+ru,stake,Stake NWR5
+ru,withdraw,Withdraw
+ru,status,Status
+ru,tiers,Tiers
+ru,tooltips.connect,Connect your wallet
+ru,tooltips.amount,Enter amount to stake
+ru,tooltips.approve,Approve NWR5
+ru,tooltips.stake,Stake your NWR5
+ru,tooltips.withdraw,Withdraw stake and reward
+ru,tooltips.status,Check stake and unlock status
+ru,tooltips.view,View all staking tiers
+ru,logs.approved,Approved NWR5:
+ru,logs.staked,Staked:
+ru,logs.withdrawn,Withdrawn.
+ru,logs.rewards,Pending Rewards:
+ru,logs.balance,NWR4 in contract:
+ru,logs.unlock,Unlocks in:
+ru,logs.ready,Unlocked! You may withdraw.
+it,heading,NWR5 Staking Interface
+it,toggleDark,Toggle Dark Mode
+it,connected,Connected:
+it,stake,Stake NWR5
+it,withdraw,Withdraw
+it,status,Status
+it,tiers,Tiers
+it,tooltips.connect,Connect your wallet
+it,tooltips.amount,Enter amount to stake
+it,tooltips.approve,Approve NWR5
+it,tooltips.stake,Stake your NWR5
+it,tooltips.withdraw,Withdraw stake and reward
+it,tooltips.status,Check stake and unlock status
+it,tooltips.view,View all staking tiers
+it,logs.approved,Approved NWR5:
+it,logs.staked,Staked:
+it,logs.withdrawn,Withdrawn.
+it,logs.rewards,Pending Rewards:
+it,logs.balance,NWR4 in contract:
+it,logs.unlock,Unlocks in:
+it,logs.ready,Unlocked! You may withdraw.
